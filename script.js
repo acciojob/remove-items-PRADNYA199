@@ -13,7 +13,7 @@ function removeColor() {
 
 // Attach the function to the button when the page is fully loaded
 window.onload = function() {
-    // Get the button and attach the click event
+   
     let removeButton = document.querySelector('input[type="button"]');
     removeButton.addEventListener('click', removeColor);
 };
